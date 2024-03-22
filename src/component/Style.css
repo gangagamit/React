@@ -1,0 +1,9 @@
+h2{
+    color: red;
+    background-color: yellow;
+    font-style:italic;
+}
+h3{
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+}
