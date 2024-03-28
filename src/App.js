@@ -5,6 +5,7 @@ import Img from './component/Image';
 import List from './component/List';
 import Pera1 from './component/Pera1';
 import CompA from './component/CompA';
+import Name from './Task/Greeting';
 function App() {
   return (
     <div className="App">
@@ -13,8 +14,9 @@ function App() {
       <Img/>
       <List/>
       <Pera1/> */}
-      <CompA/>
-      <h1 className="text-3xl font-bold underline">Lorem dfrter dhfushfduishdiu</h1>
+      {/* <CompA/> */}
+      <Name/>
+      {/* <h1 className="text-3xl font-bold underline">Lorem dfrter dhfushfduishdiu</h1> */}
     </div>
   );
 }
