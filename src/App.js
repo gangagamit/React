@@ -4,14 +4,17 @@ import Pera from './component/Pera';
 import Img from './component/Image';
 import List from './component/List';
 import Pera1 from './component/Pera1';
+import CompA from './component/CompA';
 function App() {
   return (
     <div className="App">
-      <Heading/>
+      {/* <Heading/>
       <Pera/>
       <Img/>
       <List/>
-      <Pera1/>
+      <Pera1/> */}
+      <CompA/>
+      <h1 className="text-3xl font-bold underline">Lorem dfrter dhfushfduishdiu</h1>
     </div>
   );
 }
