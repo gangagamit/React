@@ -8,10 +8,14 @@ import CompA from './component/CompA';
 import Name from './Task/Greeting';
 import CardProps from './Task/CardProps';
 import Props from './component/Props';
+import Img1 from './Image/Img-1.jpg';
+import Img2 from './Image/Img-2.jpg';
+import Img3 from './Image/Img-3.jpg';
 
 function App() {
   return (
-    <div className="App">
+    <>
+    <div className="App flex mt-10">
       {/* <Heading/>
       <Pera/>
       <Img/>
@@ -21,12 +25,13 @@ function App() {
       {/* <Name/>
       <Props Name="Ganga" age="24"/> */}
       <CardProps Name="David Dell" descri="The lorem text the section contain contains header having open andclose functionality"
-      btn="View More"/>
+      btn="View More" Image={Img1}/>
        <CardProps Name="Rose Bush" descri="The lorem text the section contain contains header having open andclose functionality"
-      btn="View More"/>
+      btn="View More" Image={Img2}/>
         <CardProps Name="Johns Gail" descri="The lorem text the section contain contains header having open andclose functionality"
-      btn="View More"/>
+      btn="View More" Image={Img3}/>
     </div>
+      </>
   );
 }
 
