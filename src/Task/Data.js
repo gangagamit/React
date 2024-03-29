@@ -1,7 +1,7 @@
-import img1 from "../Image/img-1.jpg";
-import img2 from "../Image/img-2.jpg";
-import img3 from "../Image/img-3.jpg";
-const Detail = [
+import img1 from '../Image/Img-1.jpg';
+import img2 from '../Image/Img-2.jpg';
+import img3 from '../Image/Img-3.jpg';
+const Data = [
     {
         Name:"David Dell",
         descri:"The lorem text the section contain contains header having open andclose functionality",
@@ -21,3 +21,4 @@ const Detail = [
         img:img3
     },
 ]
+export default Data;

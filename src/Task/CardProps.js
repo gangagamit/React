@@ -7,7 +7,7 @@ function CardProps(props) {
     
         <div className="box">
           <div className='w-80 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-2 mx-5'>
-              <img className='rounded-full w-28 h-28 outline-white-700  text-center bottom-3 border-sky-700 inline-flex items-center bg-blue-600 border-4' src={props.Image} alt='Image'/>
+              <img className='rounded-full w-28 h-28 outline-white-700  text-center bottom-3 border-sky-700 inline-flex items-center bg-blue-600 border-4' src={props.img} alt='image'/>
             
               <p className='text-md text-center text-black'>{props.Name}</p>
               <p className='text-lg text-wrap text-slate-600 text-center'>{props.descri}</p>

@@ -11,7 +11,7 @@ import Props from './component/Props';
 import Img1 from './Image/Img-1.jpg';
 import Img2 from './Image/Img-2.jpg';
 import Img3 from './Image/Img-3.jpg';
-
+import Data from './Task/Data';
 function App() {
   return (
     <>
@@ -24,12 +24,10 @@ function App() {
       {/* <CompA/> */}
       {/* <Name/>
       <Props Name="Ganga" age="24"/> */}
-      <CardProps Name="David Dell" descri="The lorem text the section contain contains header having open andclose functionality"
-      btn="View More" Image={Img1}/>
-       <CardProps Name="Rose Bush" descri="The lorem text the section contain contains header having open andclose functionality"
-      btn="View More" Image={Img2}/>
-        <CardProps Name="Johns Gail" descri="The lorem text the section contain contains header having open andclose functionality"
-      btn="View More" Image={Img3}/>
+      {Data.map((cvalue,index,array)=>{
+        console.log(cvalue,"cvalue")
+        return <CardProps key={index} Name={cvalue.Name} descri={cvalue.descri} btn={cvalue.btn} img={cvalue.img}/>
+      })}
     </div>
       </>
   );
