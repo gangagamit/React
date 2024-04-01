@@ -8,4 +8,4 @@ function Props(demo) {
   )
 }
 
-export default Props
+export default Props;

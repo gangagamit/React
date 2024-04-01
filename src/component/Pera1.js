@@ -1,6 +1,5 @@
 import React from "react"
 import "../component/Style.css";
-// import Style1 from "../component/Style1.module.css";
 function Pera1(){
     return (
     <>
